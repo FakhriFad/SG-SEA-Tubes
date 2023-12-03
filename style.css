@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+  }
+  
+  header {
+    min-height: 2vh;
+    max-height: 3vh;
+    display: flex;
+    background-color: #6cc6be;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    z-index: 2;
+  }
+  
+  header img {
+    max-width: 4.5vw;
+    object-fit: cover;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  #sideNav {
+    background-color: black;
+    overflow-x: hidden;
+    bottom: 0px;
+    transition: 0.5s;
+  }
+  
+  .closeNav {
+    width: 0px;
+  }
+  
+  .openNav {
+    width: 35vw;
+  }
+  
+  .content-1 {
+    font-size: 25px;
+  }
+  
+  .content-1 img {
+    max-width: 30vw;
+  }
