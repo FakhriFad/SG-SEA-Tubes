@@ -1,8 +1,12 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
-  }
-  
-  header {
+}
+
+header {
     min-height: 2vh;
     max-height: 3vh;
     display: flex;
@@ -14,36 +18,50 @@ body {
     top: 0;
     overflow: visible;
     z-index: 2;
-  }
-  
-  header img {
+}
+
+header img {
     max-width: 4.5vw;
     object-fit: cover;
-  }
-  
-  .main {
+}
+
+.main {
     display: flex;
-  }
-  
-  #sideNav {
-    background-color: black;
+    position: sticky;
+}
+
+#sideNav {
+    background-color: gray;
+    top: 100px;
     overflow-x: hidden;
-    bottom: 0px;
     transition: 0.5s;
-  }
-  
-  .closeNav {
+}
+
+.closeNav {
     width: 0px;
-  }
-  
-  .openNav {
+}
+
+.openNav {
     width: 35vw;
-  }
-  
-  .content-1 {
+}
+
+.navLinks-close {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+.navLinks-open {
+    position: fixed;
+    width: 10vw;
+}
+
+.content-1 {
     font-size: 25px;
-  }
-  
-  .content-1 img {
+    padding-top: 7vh;
+}
+
+.content-1 img {
     max-width: 30vw;
-  }
+}
