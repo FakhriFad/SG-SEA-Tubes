@@ -5,11 +5,11 @@ function toggleNav() {
     const element1 = document.getElementById("navLinks");
     if (element.className == "closeNav") {
         element.className = "openNav";
-        setTimeout(function() {
+        /*setTimeout(function() {
             element1.className = "navLinks-open";
-        }, delay);
+        }, delay);*/
     } else {
         element.className = "closeNav";
-        element1.className = "navLinks-close";
+        //element1.className = "navLinks-close";
     }
 }
