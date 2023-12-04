@@ -31,11 +31,11 @@ header img {
     top: 10vh;
 }
 
-#sideNav {
-    background-color: black;
-    top: 100px;
+#nav {
+    background-color: grey;
     overflow-x: hidden;
     transition: 0.5s;
+    position: relative;
 }
 
 .closeNav {
@@ -46,21 +46,43 @@ header img {
     width: 35vw;
 }
 
-.content {
+#navLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+#navLinks a {
+    padding: 20px;
+}
+
+#navLinks a:hover {
+    background-color: black;
+} 
+
+#contentBox div.content:nth-child(even){
+    background: cyan;
+}
+
+#contentBox div.content:nth-child(odd){
+    background: red;
+}
+
+.contentBox {
     position: relative;
     height: 90vh;
     overflow-y: scroll;
+    scroll-snap-align: center;
 }
 
-.content-1 {
+.content {
     font-size: 25px;
     padding-top: 7vh;
 }
 
-.content-1 img {
+.content img {
     max-width: 30vw;
 }
 
-.content-1 p {
+.content p {
     background-color: white;
 }

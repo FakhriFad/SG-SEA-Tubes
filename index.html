@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Timeline</title>
@@ -14,39 +15,53 @@
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </header>
     <div id="main" class="main" style="background-color: aqua;">
-        <nav id="sideNav" class="closeNav">
-            <div class="navLinks" id="navLinks" style="background-color: grey;">
-                <ul>
-                    <li><a href="#content-1">HOME</a></li>
-                    <li><a href="#content-2">ORDER</a></li>
-                    <li><a href="#content-3">ABOUT</a></li>
-                    <li><a href="#content-4">CONTACTS</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div id="content" class="content" style="background-color: blue;">
-            <div id="content-1" class="content-1" style="background-color: red;">
+        <div id="nav" class="closeNav">
+            <nav class="navLinks" id="navLinks" style="background-color: grey;">
+                <a href="#1">Content 1</a>
+                <a href="#2">Content 2</a>
+                <a href="#3">Content 3</a>
+                <a href="#4">Content 4</a>
+                <a href="#5">Content 5</a>
+                <a href="#6">Content 6</a>
+            </nav>
+        </div>
+        <div id="contentBox" class="contentBox" style="background-color: blue;">
+            <div id="1" class="content">
                 <img src="image/seachan-serious.png" alt="">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae culpa nesciunt, fugit deserunt mollitia porro eveniet quis expedita veritatis, architecto autem repudiandae perspiciatis eligendi, sunt deleniti praesentium ad quo.
                 </p>
             </div>
-            <div id="content-2" class="content-1" style="background-color: lime;">
+            <div id="2" class="content">
                 <img src="image/seachan-serious.png" alt="">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae culpa nesciunt, fugit deserunt mollitia porro eveniet quis expedita veritatis, architecto autem repudiandae perspiciatis eligendi, sunt deleniti praesentium ad quo.
                 </p>
             </div>
-            <div id="content-3" class="content-1" style="background-color: magenta;">
+            <div id="3" class="content">
                 <img src="image/seachan-serious.png" alt="">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae culpa nesciunt, fugit deserunt mollitia porro eveniet quis expedita veritatis, architecto autem repudiandae perspiciatis eligendi, sunt deleniti praesentium ad quo.
                 </p>
             </div>
-            <div id="content-4" class="content-1" style="background-color: cyan;">
+            <div id="4" class="content">
+                <img src="image/seachan-serious.png" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae culpa nesciunt, fugit deserunt mollitia porro eveniet quis expedita veritatis, architecto autem repudiandae perspiciatis eligendi, sunt deleniti praesentium ad quo.
+                </p>
+            </div>
+            <div id="5" class="content">
+                <img src="image/seachan-serious.png" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae culpa nesciunt, fugit deserunt mollitia porro eveniet quis expedita veritatis, architecto autem repudiandae perspiciatis eligendi, sunt deleniti praesentium ad quo.
+                </p>
+            </div>
+            <div id="6" class="content">
                 <img src="image/seachan-serious.png" alt="">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, distinctio non dolores laborum minus, sed numquam reiciendis suscipit aliquam deleniti aut dolor in officiis adipisci assumenda animi impedit voluptate quae.
