@@ -63,6 +63,7 @@ header img {
     text-decoration: none;
     text-align: center;
     background-color: #05B3AF;
+    white-space: nowrap;
 }
 
 #navLinks a:hover {
@@ -79,9 +80,10 @@ header img {
 
 .contentBox {
     position: relative;
-    height: 90vh;
+    height: 90svh;
     overflow-y: scroll;
     scroll-snap-align: center;
+    width: auto;
 }
 
 .content {
