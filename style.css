@@ -10,7 +10,7 @@ header {
     min-height: 2vh;
     max-height: 3vh;
     display: flex;
-    background-color: #6cc6be;
+    background-color: #E1F4E5;
     justify-content: space-between;
     padding: 2% 6%;
     align-items: center;
@@ -32,7 +32,7 @@ header img {
 }
 
 #nav {
-    background-color: grey;
+    background-color: #05B3AF;
     overflow-x: hidden;
     transition: 0.5s;
     position: relative;
@@ -52,19 +52,22 @@ header img {
 }
 
 #navLinks a {
-    padding: 20px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #05B3AF;
 }
 
 #navLinks a:hover {
-    background-color: black;
+    background-color: #003D3B;
 } 
 
 #contentBox div.content:nth-child(even){
-    background: cyan;
+    background: #006967;
 }
 
 #contentBox div.content:nth-child(odd){
-    background: red;
+    background: #B3E4E4;
 }
 
 .contentBox {
@@ -76,13 +79,22 @@ header img {
 
 .content {
     font-size: 25px;
-    padding-top: 7vh;
+    padding: 15px 20px 15px 0px;
+    display: flex;
 }
 
 .content img {
-    max-width: 30vw;
+    max-width: 25vw;
+    min-width: 15vw;
+    margin: 10px 10px 10px 0px;
+    border-radius: 0px 50px 50px 0px;
+
 }
 
 .content p {
-    background-color: white;
+    background-color: #003D3B;
+    color: white;
+    margin-right: 3vw;
+    padding: 25px;
+    border-radius: 50px;
 }
