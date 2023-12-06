@@ -84,18 +84,18 @@ header img {
 }
 
 .content img {
-    max-width: 25vw;
+    max-width: 30%;
     margin: 10px 10px 10px 0px;
     border-radius: 0px 50px 50px 0px;
 
 }
 
+.contentText {
+    text-align: center;
+}
+
 .content p {
-    display: block;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 20em;
+    max-height: 500px;
     line-height: 1.8em;
     font-size: 20px;
     background-color: #003D3B;
