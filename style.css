@@ -43,7 +43,7 @@ header img {
 }
 
 .openNav {
-    width: 35vw;
+    width: 70vw;
 }
 
 #navLinks {
@@ -85,16 +85,21 @@ header img {
 
 .content img {
     max-width: 25vw;
-    min-width: 15vw;
     margin: 10px 10px 10px 0px;
     border-radius: 0px 50px 50px 0px;
 
 }
 
 .content p {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 20em;
+    line-height: 1.8em;
+    font-size: 20px;
     background-color: #003D3B;
     color: white;
-    margin-right: 3vw;
     padding: 25px;
     border-radius: 50px;
 }
