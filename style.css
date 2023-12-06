@@ -49,7 +49,7 @@ header img {
 }
 
 .openNav {
-    width: 1500px;
+    width: 200px;
 }
 
 #navLinks {
@@ -79,11 +79,11 @@ header img {
 }
 
 .contentBox {
-    position: relative;
+    position: static;
     height: 90svh;
     overflow-y: scroll;
     scroll-snap-align: center;
-    width: auto;
+    width: 100%;
 }
 
 .content {
