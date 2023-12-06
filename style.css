@@ -20,6 +20,11 @@ header {
     z-index: 2;
 }
 
+header h1 {
+    padding-right: 265px;
+    font-size: 40px;
+}
+
 header img {
     max-width: 4.5vw;
     object-fit: cover;
